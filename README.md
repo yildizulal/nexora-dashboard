@@ -6,7 +6,21 @@ Nexora provides a clean workspace for monitoring business performance, managing 
 
 ## Preview
 
-> Screenshots and live demo available below.
+### Dashboard
+
+![Nexora Dashboard](public/screenshots/dashboard.png)
+
+### Analytics
+
+![Nexora Analytics](public/screenshots/analytics.png)
+
+### Project Management
+
+![Nexora Projects](public/screenshots/projects.png)
+
+### Login
+
+![Nexora Login](public/screenshots/login.png)
 
 ## Features
 
