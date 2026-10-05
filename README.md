@@ -1,75 +1,121 @@
-# React + TypeScript + Vite
+# Nexora Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive SaaS business dashboard built with React and TypeScript.
 
-Currently, two official plugins are available:
+Nexora provides a clean workspace for monitoring business performance, managing projects, exploring analytics and organizing customer data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Preview
 
-## React Compiler
+> Screenshots and live demo available below.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Responsive SaaS dashboard interface
+- Business performance overview
+- Interactive analytics and charts
+- Project management dashboard
+- Project search and status filtering
+- Customer management
+- Customer search and filtering
+- Responsive mobile navigation
+- Light and dark mode
+- Persistent theme preference
+- Demo authentication
+- Protected routes
+- Persistent demo session
+- Responsive data tables
+- Mobile-friendly interface
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- Recharts
+- Lucide React
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Application Pages
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Dashboard
+Overview of revenue, customers, active projects, conversion rates and recent activity.
 
+### Analytics
+Interactive visualizations for traffic, conversions, traffic sources and geographic performance.
+
+### Projects
+Project management interface with search, status filtering, progress tracking and deadlines.
+
+### Customers
+Customer management interface with search, status filters and customer activity information.
+
+### Settings
+Workspace preferences including persistent light and dark themes.
+
+## Demo Authentication
+
+Nexora includes frontend-only demo authentication for demonstration purposes.
+
+**Email**
+
+```text
+demo@nexora.com
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+**Password**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```text
+demo123
 ```
+
+> Authentication in this project is intentionally simulated on the client side. It should not be used as a production authentication implementation.
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yildizulal/nexora-dashboard.git
+```
+
+Navigate to the project:
+
+```bash
+cd nexora-dashboard
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+## Responsive Design
+
+Nexora is designed for desktop, tablet and mobile devices. The interface includes responsive layouts, mobile navigation and horizontally scrollable data tables where necessary.
+
+## Project Purpose
+
+Nexora was created as a frontend portfolio project demonstrating modern React development, TypeScript, component-based architecture, routing, state management, responsive UI design and data visualization.
+
+## Developer
+
+**Zülal Yıldız**  
+Full-Stack Developer
+
+Portfolio: https://www.zulalyildizagency.com
